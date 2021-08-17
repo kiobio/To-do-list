@@ -1,0 +1,63 @@
+*{
+  font-family: 'Luckiest Guy', cursive;
+  color: rgb(156, 49, 156);
+  text-align: center;
+}
+body{
+  background-image: linear-gradient(black, rgb(64, 44, 68));
+  width: 100vw;
+  height: 100vh;
+ 
+}
+h1{
+
+  font-size: 4rem;
+  margin: 5rem;
+    
+}
+.Form{
+
+  button{
+    font-size: 1.5rem;
+    width: 2.5rem;
+  }
+  input{
+    font-size: 1.5rem;
+    background-color: black;
+  }
+  select{
+   font-size: 1.5rem;
+  }
+  
+}
+
+.list{
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  .listFlex{
+    display: flex ;
+    width:20rem;
+    justify-content: space-between;
+    background-color: rgb(156,49,156);
+    li{
+      margin-left: 1rem;
+      color: black;
+    }
+  }
+  
+}
+ .butt{
+    img{
+      width: 1.5rem;
+    }
+  }
+#completed{
+  text-decoration: line-through black;
+  color:rgb(42, 196, 42);
+  opacity:0.7;
+
+}
+.Todo{
+  margin-left: -2.4rem;
+}
